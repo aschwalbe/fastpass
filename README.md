@@ -13,8 +13,6 @@ Default passwords now align with the recommendations outlined in **NIST 800-63B,
 
 Fastpass available for download!
 
-All passwords are generated 
-
 ## How to use
 
 Usage: fastpass [options]
