@@ -12,8 +12,8 @@ import argparse
 
 # class for options
 class options:
-    characters = 8
-    complexity = "luns"
+    characters = 15
+    complexity = "l"
     minimize_output = False
 
 # class for colors
@@ -181,7 +181,7 @@ if not options.minimize_output:
     print("  /___// . // __//_ _// . // . // __// __/")
     print(" /__/ /   //__ / / / / __//   //__ //__ /")
     print("/_/  /_/_//___/ /_/ /_/  /_/_//___//___/\n")
-    print("      v1.0.0 by Austin Schwalbe\n")
+    print("      v1.1.0 by Austin Schwalbe\n")
 
 # parse -n
 if args.n is not None:
@@ -192,7 +192,7 @@ if args.n is not None:
         options.characters = args.n
     messages.Info("Setting password length to {} characters".format(options.characters))
 else:
-    messages.Info("Using default password length (8 characters)")
+    messages.Info("Using default password length (15 characters)")
 
 # parse -c
 if args.c is not None:
@@ -209,7 +209,7 @@ if args.c is not None:
     types = types.strip()[:-1]
     messages.Info("Setting character types to {}".format(types))
 else:
-    messages.Info("Using default password complexity (all character types)")
+    messages.Info("Using default password complexity (all lowercase)")
 
 # generate a password
 print(GenPass())
