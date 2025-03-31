@@ -3,13 +3,13 @@ A CLI-based password generator that allows you to create and customize passwords
 
 ## Recent updates
 
-### v1.1
+### v1.1.0
 
 Default passwords now align with the recommendations outlined in **NIST 800-63B, Rev 4**, including:
 - A default character length of **15 characters** (minimum length of 8 characters)
 - A default complexity of **none** (a.k.a. all lowercase)
 
-### v1.0 (Release)
+### v1.0.0 (Release)
 
 Fastpass available for download!
 
